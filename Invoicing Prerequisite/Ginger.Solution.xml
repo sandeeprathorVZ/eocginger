@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4633912d-54b3-4305-8838-cb5d1151245c" ItemType="Solution" CreatedBy="Sandeep.Rathor" Created="202101131549" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="Sandeep.Rathor" LastUpdate="202101131549" />
+<Solution Guid="4633912d-54b3-4305-8838-cb5d1151245c" Name="Invoicing Prerequisite" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="Mediation" Guid="fb107115-77f7-44ca-8afb-9f5d8b938831" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Unix" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="d0edbab2-e843-4d60-88f4-50d60ff35bf5" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="750259e5-2811-4afb-827c-984307dde27c" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+</Solution></GingerRepositoryItem>

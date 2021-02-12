@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="92971a9b-3bcd-4bfc-bc87-938fb4123720" ItemType="BusinessFlow" CreatedBy="Sandeep.Rathor" Created="202101131554" GingerVersion="3.6.0.0" Version="3" LastUpdateBy="Sandeep.Rathor" LastUpdate="202101131620" />
+<BusinessFlow Guid="92971a9b-3bcd-4bfc-bc87-938fb4123720" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Step 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="10f01e01-d410-4d9a-b34a-92e6048ad63c" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Mediation">
+<Acts>
+<ActConsoleCommand Active="True" Command="pwd" ConsoleCommand="FreeCommand" Description="Console Command Action" Guid="927beeff-2a5d-4741-b1a9-865ed7f4c693" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Unix" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="f1278643-02cf-451d-a4e6-b0ee50293ef9" Param="Free Command" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActConsoleCommand>
+<ActDBValidation Active="True" AppName="Mediation" DBName="New" DBValidationType="FreeSQL" Description="DataBase Action" Guid="265f850b-14b4-4fb7-b461-6ff55172f3ef" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="3fa16b27-9030-48b9-bb6a-fb804a97052f" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="select * from file_status where LOAD_RUN_ID='16036';" />
+<ActInputValue Guid="3c31f17c-9f5c-4069-b53a-a6b6e8db885b" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeSQL" />
+<ActInputValue Guid="c334c404-927f-4180-9308-761c36543e09" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="44b7cf93-cb4e-41dd-8775-3f92800f2eae" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDBValidation>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="6bd163f7-72ed-4247-b663-2c926687b230" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="10f01e01-d410-4d9a-b34a-92e6048ad63c" ActivityName="Step 1" Guid="e7d23380-6fda-4093-9c09-51c8efd6102a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Mediation" Guid="ef9e4584-c0f8-4bcf-a355-21768c6dc6e3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

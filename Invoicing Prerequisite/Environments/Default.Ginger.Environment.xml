@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="3c69bbb2-97cc-45c7-b234-e67aa4cb650d" ItemType="ProjEnvironment" CreatedBy="Sandeep.Rathor" Created="202101131549" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="Sandeep.Rathor" LastUpdate="202101131609" />
+<ProjEnvironment Guid="3c69bbb2-97cc-45c7-b234-e67aa4cb650d" Name="Default" ParentGuid="00000000-0000-0000-0000-000000000000">
+<Applications>
+<EnvApplication Active="True" Guid="eabbec8e-82a5-4f0f-b07d-51435717216d" Name="Mediation" ParentGuid="00000000-0000-0000-0000-000000000000">
+<Dbs>
+<Database ConnectionString="Data Source=rac_ln98250-scan.corp.ads;User Id={USER};Password={PASS};" DBType="Oracle" Guid="aa8f9b97-d5b5-4803-b14b-8c604f8f140e" KeepConnectionOpen="False" Name="New" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="6NLOcDGGBGQyk+aU3A5GXg==" TNS="rac_ln98250-scan.corp.ads" User="QA_READ" />
+</Dbs>
+</EnvApplication>
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>
